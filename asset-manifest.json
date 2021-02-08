@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cpt/static/css/main.0e254dcb.chunk.css",
-    "main.js": "/cpt/static/js/main.2bfc1fc2.chunk.js",
-    "main.js.map": "/cpt/static/js/main.2bfc1fc2.chunk.js.map",
+    "main.css": "/cpt/static/css/main.ee62977d.chunk.css",
+    "main.js": "/cpt/static/js/main.61be8eed.chunk.js",
+    "main.js.map": "/cpt/static/js/main.61be8eed.chunk.js.map",
     "runtime-main.js": "/cpt/static/js/runtime-main.117de413.js",
     "runtime-main.js.map": "/cpt/static/js/runtime-main.117de413.js.map",
     "static/js/2.044333b0.chunk.js": "/cpt/static/js/2.044333b0.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3e84b763.chunk.js": "/cpt/static/js/3.3e84b763.chunk.js",
     "static/js/3.3e84b763.chunk.js.map": "/cpt/static/js/3.3e84b763.chunk.js.map",
     "index.html": "/cpt/index.html",
-    "static/css/main.0e254dcb.chunk.css.map": "/cpt/static/css/main.0e254dcb.chunk.css.map",
+    "static/css/main.ee62977d.chunk.css.map": "/cpt/static/css/main.ee62977d.chunk.css.map",
     "static/js/2.044333b0.chunk.js.LICENSE.txt": "/cpt/static/js/2.044333b0.chunk.js.LICENSE.txt",
     "static/media/Tendeg_KaPDA.PNG": "/cpt/static/media/Tendeg_KaPDA.50e862f2.PNG",
     "static/media/Tendeg_KaTENna.jpg": "/cpt/static/media/Tendeg_KaTENna.bafe94c3.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.117de413.js",
     "static/js/2.044333b0.chunk.js",
-    "static/css/main.0e254dcb.chunk.css",
-    "static/js/main.2bfc1fc2.chunk.js"
+    "static/css/main.ee62977d.chunk.css",
+    "static/js/main.61be8eed.chunk.js"
   ]
 }
