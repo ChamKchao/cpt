@@ -53,5 +53,19 @@
     "massInKg": 0.053,
     "outpoutPowerInWatt": 4,
     "imageFileName": "endurosat_XBand4by4PatchArray.PNG"
+  },
+  {
+    "id": "sn47QLtMP0y6Dh8nnVVngg",
+    "oem": "EnduroSat",
+    "name": "UHF Antenna III",
+    "description": "A circular polarization, UHF  antenna.",
+    "type": "OMNI",
+    "gainIndB": 0,
+    "gainAtFrequencyInGHz": "operational bandwidth",
+    "band": "UHF",
+    "lowerFrequencyInGHz": 0.435,
+    "upperFrequencyInGHz": 0.438,
+    "massInKg": 0.085,
+    "imageFileName": "endurosat_UHFIII.PNG"
   }
 ]

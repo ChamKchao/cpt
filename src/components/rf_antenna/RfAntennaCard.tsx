@@ -56,7 +56,7 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
             <th>Unit</th>
             <th>Specification</th>
           </tr>
-          {antenna.stowedDimension && (
+          {antenna.stowedDimension !== undefined && (
             <tr>
               <td>Stowed Size</td>
               <td>cm^3</td>
@@ -67,35 +67,35 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
               </td>
             </tr>
           )}
-          {antenna.apertureInCm && (
+          {antenna.apertureInCm !== undefined && (
             <tr>
               <td>Deployed Aperture</td>
               <td>cm</td>
               <td>{antenna.apertureInCm}</td>
             </tr>
           )}
-          {antenna.gainIndB && (
+          {antenna.gainIndB !== undefined && (
             <tr>
               <td>Gain (@ {antenna.gainAtFrequencyInGHz} GHz)</td>
               <td>dB</td>
               <td>{antenna.gainIndB}</td>
             </tr>
           )}
-          {antenna.band && (
+          {antenna.band !== undefined && (
             <tr>
               <td>Band</td>
               <td> </td>
               <td>{antenna.band}</td>
             </tr>
           )}
-          {antenna.massInKg && (
+          {antenna.massInKg !== undefined && (
             <tr>
               <td>Mass</td>
               <td>kg</td>
               <td>{antenna.massInKg}</td>
             </tr>
           )}
-          {antenna.outpoutPowerInWatt && (
+          {antenna.outpoutPowerInWatt !== undefined && (
             <tr>
               <td>RF Output Power</td>
               <td>Watt</td>
