@@ -38,5 +38,20 @@
       "heightInCm": 17
     },
     "imageFileName": "raincube.jpg"
+  },
+  {
+    "id": "fB73mqspbEKI2fGrOP559A",
+    "oem": "EnduroSat",
+    "name": "X-Band 4x4 Patch Array",
+    "description": "A right hand circular polarization patch array antenna.",
+    "type": "PATCH",
+    "gainIndB": 16,
+    "gainAtFrequencyInGHz": "operational bandwidth",
+    "band": "X-Band",
+    "lowerFrequencyInGHz": 8.025,
+    "upperFrequencyInGHz": 8.4,
+    "massInKg": 0.053,
+    "outpoutPowerInWatt": 4,
+    "imageFileName": "endurosat_XBand4by4PatchArray.PNG"
   }
 ]

@@ -29,7 +29,6 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
         src={
           require(`../../images/rf_antennas/${antenna.imageFileName}`).default
         }
-        width={200}
         alt="Missing/Unavailable"
       />
       <div className={styles.Info}>
@@ -94,6 +93,13 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
               <td>Mass</td>
               <td>kg</td>
               <td>{antenna.massInKg}</td>
+            </tr>
+          )}
+          {antenna.outpoutPowerInWatt && (
+            <tr>
+              <td>RF Output Power</td>
+              <td>Watt</td>
+              <td>{antenna.outpoutPowerInWatt}</td>
             </tr>
           )}
         </table>

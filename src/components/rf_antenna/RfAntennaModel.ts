@@ -13,6 +13,7 @@ export interface IRfAntennaModel {
   upperFrequencyInGHz?: number;
   massInKg?: number;
   stowedDimension?: IDimension;
+  outpoutPowerInWatt?: number;
   imageFileName?: string;
   notes?: string;
 }
