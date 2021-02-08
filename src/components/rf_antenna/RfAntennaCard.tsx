@@ -5,8 +5,6 @@ import styles from "./RfAntennaCard.module.scss";
 
 import { IRfAntennaModel } from "./RfAntennaModel";
 
-import waffle from "./waffle.jpg";
-
 type RfAntennaCardProps = {
   antenna: IRfAntennaModel;
 };
