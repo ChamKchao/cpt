@@ -59,10 +59,12 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
           {antenna.stowedDimension !== undefined && (
             <tr>
               <td>Stowed Size</td>
-              <td>cm^3</td>
               <td>
-                {antenna.stowedDimension.widthInCm}x
-                {antenna.stowedDimension.lengthInCm}x
+                cm<sup>3</sup>
+              </td>
+              <td>
+                {antenna.stowedDimension.widthInCm} &times;&nbsp;
+                {antenna.stowedDimension.lengthInCm} &times;&nbsp;
                 {antenna.stowedDimension.heightInCm}
               </td>
             </tr>
@@ -100,6 +102,13 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
               <td>RF Output Power</td>
               <td>Watt</td>
               <td>{antenna.outpoutPowerInWatt}</td>
+            </tr>
+          )}
+          {antenna.costInThousand !== undefined && (
+            <tr>
+              <td>Cost</td>
+              <td>$ K</td>
+              <td>{antenna.costInThousand}</td>
             </tr>
           )}
         </table>

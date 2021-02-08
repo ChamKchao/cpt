@@ -22,22 +22,23 @@
   },
   {
     "id": "jgbbPiAXF0yUvGr3Wyvgfw",
-    "oem": "NASA/JPL",
-    "name": "KaRPDA",
-    "description": "Deployable high gain atenna for small satellites in a 1.5 stowed form factor.",
+    "oem": "Tendeg",
+    "name": "KaPDA",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
     "type": "PARABOLIC",
-    "apertureInCm": 50,
-    "gainIndB": 42.6,
-    "gainAtFrequencyInGHz": 35.75,
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
     "band": "Ka",
-    "lowerFrequencyInGHz": 30.0,
-    "upperFrequencyInGHz": 35.0,
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
     "stowedDimension": {
       "widthInCm": 10,
       "lengthInCm": 10,
-      "heightInCm": 17
+      "heightInCm": 16
     },
-    "imageFileName": "raincube.jpg"
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "notes": " "
   },
   {
     "id": "fB73mqspbEKI2fGrOP559A",
@@ -47,11 +48,12 @@
     "type": "PATCH",
     "gainIndB": 16,
     "gainAtFrequencyInGHz": "operational bandwidth",
-    "band": "X-Band",
+    "band": "X",
     "lowerFrequencyInGHz": 8.025,
     "upperFrequencyInGHz": 8.4,
     "massInKg": 0.053,
     "outpoutPowerInWatt": 4,
+    "costInThousand": 7.6,
     "imageFileName": "endurosat_XBand4by4PatchArray.PNG"
   },
   {
@@ -66,6 +68,7 @@
     "lowerFrequencyInGHz": 0.435,
     "upperFrequencyInGHz": 0.438,
     "massInKg": 0.085,
+    "costInThousand": 6,
     "imageFileName": "endurosat_UHFIII.PNG"
   }
 ]

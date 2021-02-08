@@ -14,6 +14,7 @@ export interface IRfAntennaModel {
   massInKg?: number;
   stowedDimension?: IDimension;
   outpoutPowerInWatt?: number;
+  costInThousand?: number;
   imageFileName?: string;
   notes?: string;
 }
