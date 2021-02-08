@@ -1,0 +1,31 @@
+[
+  {
+    "id": "jgbbPiAXF0yUvGr3Wyvgfw",
+    "name": "atenna 1",
+    "type": "PARABOLIC",
+    "description": "Some description",
+    "diameterInMeter": 1,
+    "gainIndB": 10,
+    "band": "Ka",
+    "lowerFrequencyInGHz": 30.0,
+    "upperFrequencyInGHz": 35.0,
+    "stowedDimension": {
+      "width": 10,
+      "lenght": 10,
+      "height": 10
+    },
+    "imageFileName": "raincube.jpg"
+  },
+  {
+    "id": "2BoKa0xDB02eLxgZznDj1g",
+    "name": "atenna 2",
+    "type": "PATCH",
+    "description": "Some description",
+    "diameterInMeter": 2,
+    "gainIndB": 10,
+    "band": "Ku",
+    "lowerFrequencyInGHz": 12.0,
+    "upperFrequencyInGHz": 18.0,
+    "imageFileName": "raincube.jpg"
+  }
+]

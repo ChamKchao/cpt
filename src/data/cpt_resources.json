@@ -1,0 +1,42 @@
+[
+  {
+    "id": "Js7RFTGaB0iC2kVA8YSTXA",
+    "group": "Hardware",
+    "area": "RF Antenna"
+  },
+  {
+    "id": "K2x74UkDaUGGgEdkPQs5pA",
+    "group": "Hardware",
+    "area": "RF Transceiver"
+  },
+  {
+    "id": "IuUWGaykVkyWJrd6j3jXTA",
+    "group": "Hardware",
+    "area": "RF Terminal"
+  },
+  {
+    "id": "8mhlJQTsekqkHwduR7mfPg",
+    "group": "Hardware",
+    "area": "Optical Terminal"
+  },
+  {
+    "id": "4iXwmFjMykioxksFi2RBbA",
+    "group": "Studies",
+    "area": "MILSATCOM"
+  },
+  {
+    "id": "wVFBDlG3c0W86Gfxplo98A",
+    "group": "Studies",
+    "area": "SBIR"
+  },
+  {
+    "id": "UDNWj0YUNE22X2GSIHucPg",
+    "group": "Tools",
+    "area": "Link Budget"
+  },
+  {
+    "id": "nWDSqXUDGUqjYHAO0kXyMw",
+    "group": "Tools",
+    "area": "SWaP Tool"
+  }
+]

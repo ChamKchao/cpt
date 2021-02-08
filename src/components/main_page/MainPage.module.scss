@@ -1,0 +1,15 @@
+@import "../../global";
+
+.Container {
+  display: block;
+  margin: 5px 10px 5px 5px;
+  width: calc(100% - 15px - 40px);
+  height: calc(100% - 10px);
+  background-color: white;
+  font-size: #{$normal_font_size};
+  font-family: "Mathjax Tex", "Times New Roman", Times, serif;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 30px;
+  overflow: auto;
+}
