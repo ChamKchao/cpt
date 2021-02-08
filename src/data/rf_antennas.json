@@ -8,7 +8,7 @@
     "apertureInCm": 100,
     "gainIndB": 49.2,
     "gainAtFrequencyInGHz": 36.0,
-    "band": "Ka",
+    "primaryBand": "Ka",
     "lowerFrequencyInGHz": 30.0,
     "upperFrequencyInGHz": 38.0,
     "massInKg": 2.5,
@@ -18,7 +18,8 @@
       "heightInCm": 30
     },
     "imageFileName": "Tendeg_KaTENna.jpg",
-    "notes": "Scalable up to 5m.  Multiple feed options."
+    "notes": "Scalable up to 5m.  Multiple feed options.",
+    "resourceLink": "https://www.tendeg.com/products"
   },
   {
     "id": "jgbbPiAXF0yUvGr3Wyvgfw",
@@ -29,7 +30,8 @@
     "apertureInCm": 51,
     "gainIndB": 42.7,
     "gainAtFrequencyInGHz": 37.5,
-    "band": "Ka",
+    "primaryBand": "Ka",
+    "secondaryBand": "Ku, X, C, S",
     "lowerFrequencyInGHz": 32.0,
     "upperFrequencyInGHz": 34.0,
     "stowedDimension": {
@@ -38,6 +40,7 @@
       "heightInCm": 16
     },
     "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
     "notes": " "
   },
   {
@@ -47,14 +50,14 @@
     "description": "A right hand circular polarization patch array antenna.",
     "type": "PATCH",
     "gainIndB": 16,
-    "gainAtFrequencyInGHz": "operational bandwidth",
-    "band": "X",
+    "primaryBand": "X",
     "lowerFrequencyInGHz": 8.025,
     "upperFrequencyInGHz": 8.4,
     "massInKg": 0.053,
     "outpoutPowerInWatt": 4,
     "costInThousand": 7.6,
-    "imageFileName": "endurosat_XBand4by4PatchArray.PNG"
+    "imageFileName": "endurosat_XBand4by4PatchArray.PNG",
+    "resourceLink": "https://www.endurosat.com/cubesat-store/cubesat-antennas/x-band-4x4-patch-array/"
   },
   {
     "id": "sn47QLtMP0y6Dh8nnVVngg",
@@ -63,12 +66,12 @@
     "description": "A circular polarization, UHF  antenna.",
     "type": "OMNI",
     "gainIndB": 0,
-    "gainAtFrequencyInGHz": "operational bandwidth",
-    "band": "UHF",
+    "primaryBand": "UHF",
     "lowerFrequencyInGHz": 0.435,
     "upperFrequencyInGHz": 0.438,
     "massInKg": 0.085,
     "costInThousand": 6,
-    "imageFileName": "endurosat_UHFIII.PNG"
+    "imageFileName": "endurosat_UHFIII.PNG",
+    "resourceLink": "https://www.endurosat.com/cubesat-store/cubesat-antennas/uhf-antenna/"
   }
 ]

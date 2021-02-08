@@ -8,7 +8,8 @@ export interface IRfAntennaModel {
   apertureInCm?: number;
   gainIndB?: number;
   gainAtFrequencyInGHz?: number;
-  band?: string;
+  primaryBand?: string;
+  secondaryBand?: string;
   lowerFrequencyInGHz?: number;
   upperFrequencyInGHz?: number;
   massInKg?: number;
@@ -16,5 +17,6 @@ export interface IRfAntennaModel {
   outpoutPowerInWatt?: number;
   costInThousand?: number;
   imageFileName?: string;
+  resourceLink?: string;
   notes?: string;
 }

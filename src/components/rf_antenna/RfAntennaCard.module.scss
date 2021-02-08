@@ -62,10 +62,19 @@ table {
   width: 100%;
   font-family: Roboto, sans-serif;
 }
+
+.SpecColumn {
+  width: 250px;
+}
+
+.UnitColumn {
+  width: 80px;
+}
+
 table,
 th,
 td {
-  border: 1px solid #{$grey_color10};
+  border: 1px solid #{$grey_color8};
   border-collapse: collapse;
 }
 th,

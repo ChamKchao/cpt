@@ -20,6 +20,10 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
   // console.log("URL", process.env.PUBLIC_URL);
   // console.log("eNV", process.env.PUBLIC_eNV);
 
+  const copyToClipboard = () => {
+    const copyText = `Name, gain (in dB), Band\n ${antenna.name} by ${antenna.oem}, ${antenna.gainIndB}, ${antenna.primaryBand}`;
+    navigator.clipboard.writeText(copyText);
+  };
   return (
     <div className={styles.Container}>
       <img
@@ -51,10 +55,30 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
         </div>
         <div className={styles.Description}>{antenna.description}</div>
         <table className={styles.table}>
+          <colgroup>
+            <col />
+            <col className={styles.UnitColumn} />
+            <col className={styles.SpecColumn} />
+          </colgroup>
           <tr>
-            <th>Metric</th>
+            {antenna.resourceLink !== undefined ? (
+              <th>
+                <a
+                  style={{ display: "table-cell", color: "white" }}
+                  href={antenna.resourceLink}
+                  target="_blank"
+                >
+                  Metric
+                </a>{" "}
+              </th>
+            ) : (
+              <th>Metric</th>
+            )}
+
             <th>Unit</th>
-            <th>Specification</th>
+            <th>
+              Specification <button onClick={copyToClipboard}>Copy</button>
+            </th>
           </tr>
           {antenna.stowedDimension !== undefined && (
             <tr>
@@ -78,16 +102,29 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
           )}
           {antenna.gainIndB !== undefined && (
             <tr>
-              <td>Gain (@ {antenna.gainAtFrequencyInGHz} GHz)</td>
+              {/* <td>Gain (@ {antenna.gainAtFrequencyInGHz} GHz)</td> */}
+              <td>
+                Gain{" "}
+                {antenna.gainAtFrequencyInGHz !== undefined ? (
+                  <span>(@ {antenna.gainAtFrequencyInGHz} GHz) </span>
+                ) : (
+                  <span>(over operational bandwidth)</span>
+                )}
+              </td>
               <td>dB</td>
               <td>{antenna.gainIndB}</td>
             </tr>
           )}
-          {antenna.band !== undefined && (
+          {antenna.primaryBand !== undefined && (
             <tr>
               <td>Band</td>
               <td> </td>
-              <td>{antenna.band}</td>
+              <td>
+                {antenna.primaryBand}
+                {antenna.secondaryBand !== undefined && (
+                  <span>, {antenna.secondaryBand}</span>
+                )}
+              </td>
             </tr>
           )}
           {antenna.massInKg !== undefined && (
