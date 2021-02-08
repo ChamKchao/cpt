@@ -19,7 +19,6 @@ const MainPage = ({ styleOptions }: TestPageProps) => {
   };
   return (
     <div className={styles.Container} style={styleOptions}>
-      {group} and {area}
       {area === "RF Antenna" && <RfAntennaPage />}
     </div>
   );

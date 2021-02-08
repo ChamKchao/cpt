@@ -1,7 +1,7 @@
 export interface IDimension {
-  width: number;
-  length: number;
-  height: number;
+  widthInCm: number;
+  lengthInCm: number;
+  heightInCm: number;
 }
 
 export enum AntennaType {
@@ -10,4 +10,5 @@ export enum AntennaType {
   PARABOLIC = "PARABOLIC",
   PATCH = "PATCH",
   DIPOLE = "DIPOLE",
+  MESH = "MESH",
 }

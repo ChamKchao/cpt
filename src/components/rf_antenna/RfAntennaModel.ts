@@ -1,14 +1,18 @@
 import { AntennaType, IDimension } from "../helpers/HardwareHelper";
 
 export interface IRfAntennaModel {
+  oem: string;
   name: string;
   type?: AntennaType;
   description?: string;
-  diameterInMeter?: number;
+  apertureInCm?: number;
   gainIndB?: number;
+  gainAtFrequencyInGHz?: number;
   band?: string;
   lowerFrequencyInGHz?: number;
   upperFrequencyInGHz?: number;
+  massInKg?: number;
   stowedDimension?: IDimension;
   imageFileName?: string;
+  notes?: string;
 }

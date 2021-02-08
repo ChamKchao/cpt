@@ -1,31 +1,42 @@
 [
   {
+    "id": "AzFNYn8dN06pHayJblf7Ig",
+    "oem": "Tendeg",
+    "name": "KaTENna",
+    "type": "MESH",
+    "description": "Deployable high gain atenna for small satellites in a 3U stowed form factor.",
+    "apertureInCm": 100,
+    "gainIndB": 49.2,
+    "gainAtFrequencyInGHz": 36.0,
+    "band": "Ka",
+    "lowerFrequencyInGHz": 30.0,
+    "upperFrequencyInGHz": 38.0,
+    "massInKg": 2.5,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 30
+    },
+    "imageFileName": "Tendeg_KaTENna.jpg",
+    "notes": "Scalable up to 5m.  Multiple feed options."
+  },
+  {
     "id": "jgbbPiAXF0yUvGr3Wyvgfw",
-    "name": "atenna 1",
+    "oem": "NASA/JPL",
+    "name": "KaRPDA",
+    "description": "Deployable high gain atenna for small satellites in a 1.5 stowed form factor.",
     "type": "PARABOLIC",
-    "description": "Some description",
-    "diameterInMeter": 1,
-    "gainIndB": 10,
+    "apertureInCm": 50,
+    "gainIndB": 42.6,
+    "gainAtFrequencyInGHz": 35.75,
     "band": "Ka",
     "lowerFrequencyInGHz": 30.0,
     "upperFrequencyInGHz": 35.0,
     "stowedDimension": {
-      "width": 10,
-      "lenght": 10,
-      "height": 10
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 17
     },
-    "imageFileName": "raincube.jpg"
-  },
-  {
-    "id": "2BoKa0xDB02eLxgZznDj1g",
-    "name": "atenna 2",
-    "type": "PATCH",
-    "description": "Some description",
-    "diameterInMeter": 2,
-    "gainIndB": 10,
-    "band": "Ku",
-    "lowerFrequencyInGHz": 12.0,
-    "upperFrequencyInGHz": 18.0,
     "imageFileName": "raincube.jpg"
   }
 ]
