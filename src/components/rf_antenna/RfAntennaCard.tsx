@@ -16,6 +16,7 @@ interface specRow {
   unit: string;
   spec: string;
 }
+
 const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
   // console.log("URL", process.env.PUBLIC_URL);
   // console.log("eNV", process.env.PUBLIC_eNV);
@@ -24,6 +25,7 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
     const copyText = `Name, gain (in dB), Band\n ${antenna.name} by ${antenna.oem}, ${antenna.gainIndB}, ${antenna.primaryBand}`;
     navigator.clipboard.writeText(copyText);
   };
+
   return (
     <div className={styles.Container}>
       <img

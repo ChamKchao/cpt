@@ -44,6 +44,138 @@
     "notes": " "
   },
   {
+    "id": "d8cvGCuba0yjtrmpHejUcA",
+    "oem": "Aero",
+    "name": "Some Antenna",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
+    "type": "PARABOLIC",
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
+    "primaryBand": "Ku",
+    "secondaryBand": "Ku, X, C, S",
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 16
+    },
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
+    "notes": " "
+  },
+  {
+    "id": "d8cvGCuba0yjtrmpHejUcA",
+    "oem": "Aero",
+    "name": "Some Antenna",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
+    "type": "PARABOLIC",
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
+    "primaryBand": "Ku",
+    "secondaryBand": "Ku, X, C, S",
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 16
+    },
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
+    "notes": " "
+  },
+  {
+    "id": "d8cvGCuba0yjtrmpHejUcA",
+    "oem": "Aero",
+    "name": "Some Antenna",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
+    "type": "PARABOLIC",
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
+    "primaryBand": "Ku",
+    "secondaryBand": "Ku, X, C, S",
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 16
+    },
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
+    "notes": " "
+  },
+  {
+    "id": "d8cvGCuba0yjtrmpHejUcA",
+    "oem": "Aero",
+    "name": "Some Antenna",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
+    "type": "PARABOLIC",
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
+    "primaryBand": "Ku",
+    "secondaryBand": "Ku, X, C, S",
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 16
+    },
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
+    "notes": " "
+  },
+  {
+    "id": "d8cvGCuba0yjtrmpHejUcA",
+    "oem": "Aero",
+    "name": "Some Antenna",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
+    "type": "PARABOLIC",
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
+    "primaryBand": "Ku",
+    "secondaryBand": "Ku, X, C, S",
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 16
+    },
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
+    "notes": " "
+  },
+  {
+    "id": "d8cvGCuba0yjtrmpHejUcA",
+    "oem": "Aero",
+    "name": "Some Antenna",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
+    "type": "PARABOLIC",
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
+    "primaryBand": "Ku",
+    "secondaryBand": "Ku, X, C, S",
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 16
+    },
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
+    "notes": " "
+  },
+  {
     "id": "fB73mqspbEKI2fGrOP559A",
     "oem": "EnduroSat",
     "name": "X-Band 4x4 Patch Array",
@@ -58,6 +190,72 @@
     "costInThousand": 7.6,
     "imageFileName": "endurosat_XBand4by4PatchArray.PNG",
     "resourceLink": "https://www.endurosat.com/cubesat-store/cubesat-antennas/x-band-4x4-patch-array/"
+  },
+  {
+    "id": "d8cvGCuba0yjtrmpHejUcA",
+    "oem": "Aero",
+    "name": "Some S-Band",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
+    "type": "PARABOLIC",
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
+    "primaryBand": "S",
+    "secondaryBand": "",
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 16
+    },
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
+    "notes": " "
+  },
+  {
+    "id": "d8cvGCuba0yjtrmpHejUcA",
+    "oem": "Aero",
+    "name": "Some C-Band",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
+    "type": "PARABOLIC",
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
+    "primaryBand": "C",
+    "secondaryBand": "",
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 16
+    },
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
+    "notes": " "
+  },
+  {
+    "id": "d8cvGCuba0yjtrmpHejUcA",
+    "oem": "Aero",
+    "name": "Some C-Band",
+    "description": "Deployable high gain atenna for small satellites in a 1.6U stowed form factor.  With modifications to subreflector and feed, antenna can be made to operate at S, C, X, Ku, and K bands.",
+    "type": "PARABOLIC",
+    "apertureInCm": 51,
+    "gainIndB": 42.7,
+    "gainAtFrequencyInGHz": 37.5,
+    "primaryBand": "C",
+    "secondaryBand": "",
+    "lowerFrequencyInGHz": 32.0,
+    "upperFrequencyInGHz": 34.0,
+    "stowedDimension": {
+      "widthInCm": 10,
+      "lengthInCm": 10,
+      "heightInCm": 16
+    },
+    "imageFileName": "Tendeg_KaPDA.PNG",
+    "resourceLink": "https://www.tendeg.com/products",
+    "notes": " "
   },
   {
     "id": "sn47QLtMP0y6Dh8nnVVngg",

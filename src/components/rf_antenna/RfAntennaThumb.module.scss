@@ -1,0 +1,94 @@
+@import "../../global";
+
+$display_margin: 2px;
+$thumb_width: 100px;
+$thumb_height: 100px;
+$image_width: calc(#{$thumb_width} - #{$display_margin}* 2);
+
+$ka_band_color: #00ff00;
+$ku_band_color: #0000ff;
+$x_band_color: #ff0000;
+$s_band_color: #ffff00;
+$c_band_color: #ff00ff;
+$uhf_band_color: #00ffff;
+
+:export {
+  ka_band_color: $ka_band_color;
+  ku_band_color: $ku_band_color;
+  x_band_color: $x_band_color;
+  s_band_color: $s_band_color;
+  c_band_color: $c_band_color;
+  uhf_band_color: $uhf_band_color;
+}
+
+.Container {
+  @extend .shadow;
+  position: relative;
+  width: #{$thumb_width};
+  height: #{$thumb_height};
+  border-style: none;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: #f3f3f3;
+  padding: #{$display_margin} #{$display_margin};
+}
+
+.Image {
+  display: block;
+  width: #{$image_width};
+  height: #{$image_width};
+  margin: #{$display_margin} #{$display_margin};
+}
+
+.NameOverlay {
+  position: absolute;
+  top: 0;
+  width: #{$image_width};
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  margin: calc(#{$display_margin}* 2) #{$display_margin};
+  font: {
+    family: "Roboto";
+    size: #{$footnote_font_size};
+    weight: 100;
+  }
+  color: white;
+}
+
+.BandOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(#{$image_width}/ 2 - 20px);
+  text-align: left;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0px 0px calc(#{$display_margin}* 2) calc(#{$display_margin}* 2);
+  padding: 0px 0px 0px 2px;
+  font: {
+    family: "Roboto";
+    size: #{$footnote_font_size};
+    weight: 100;
+  }
+  color: white;
+}
+
+.GainOverlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc(#{$image_width}/ 2 - 0px);
+  text-align: right;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0px calc(#{$display_margin}* 2) calc(#{$display_margin}* 2) 0px;
+  padding: 0px 2px 0px 0px;
+  font: {
+    family: "Roboto";
+    size: #{$footnote_font_size};
+    weight: 100;
+  }
+  color: white;
+}
