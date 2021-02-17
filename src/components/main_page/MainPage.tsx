@@ -6,11 +6,11 @@ import styles from "./MainPage.module.scss";
 
 import RfAntennaPage from "../rf_antenna/RfAntennaPage";
 
-type TestPageProps = {
+type MainPageProps = {
   styleOptions: React.CSSProperties;
 };
 
-const MainPage = ({ styleOptions }: TestPageProps) => {
+const MainPage = ({ styleOptions }: MainPageProps) => {
   let { group, area } = useParams<MainPageParams>();
 
   type MainPageParams = {

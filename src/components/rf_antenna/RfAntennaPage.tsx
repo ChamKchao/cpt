@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { NavLink } from "react-router-dom";
 
 import styles from "./RfAntenna.module.scss";
 
@@ -8,37 +9,49 @@ import RfAntennaThumb from "./RfAntennaThumb";
 import { IRfAntennaModel } from "./RfAntennaModel";
 import { AntennaType } from "../helpers/HardwareHelper";
 
+type ThumbItemProp = {
+  antenna: IRfAntennaModel;
+};
+
+const ThumbItem = ({ antenna }: ThumbItemProp): JSX.Element => {
+  return (
+    <NavLink to={`/RfAntennaDetailPage/${antenna.id}`}>
+      <RfAntennaThumb antenna={antenna} />
+    </NavLink>
+  );
+};
+
 const RfAntennaPage = () => {
   const rfAntennas: IRfAntennaModel[] = useContext(RfAntennaContext);
 
   let ka_children = rfAntennas.map((antenna, index) => {
     if (antenna.primaryBand === "Ka") {
-      return <RfAntennaThumb key={index} antenna={antenna} />;
+      return <ThumbItem key={index} antenna={antenna} />;
     }
   });
   let ku_children = rfAntennas.map((antenna, index) => {
     if (antenna.primaryBand === "Ku") {
-      return <RfAntennaThumb key={index} antenna={antenna} />;
+      return <ThumbItem key={index} antenna={antenna} />;
     }
   });
   let x_children = rfAntennas.map((antenna, index) => {
     if (antenna.primaryBand === "X") {
-      return <RfAntennaThumb key={index} antenna={antenna} />;
+      return <ThumbItem key={index} antenna={antenna} />;
     }
   });
   let s_children = rfAntennas.map((antenna, index) => {
     if (antenna.primaryBand === "S") {
-      return <RfAntennaThumb key={index} antenna={antenna} />;
+      return <ThumbItem key={index} antenna={antenna} />;
     }
   });
   let c_children = rfAntennas.map((antenna, index) => {
     if (antenna.primaryBand === "C") {
-      return <RfAntennaThumb key={index} antenna={antenna} />;
+      return <ThumbItem key={index} antenna={antenna} />;
     }
   });
   let uhf_children = rfAntennas.map((antenna, index) => {
     if (antenna.primaryBand === "UHF") {
-      return <RfAntennaThumb key={index} antenna={antenna} />;
+      return <ThumbItem key={index} antenna={antenna} />;
     }
   });
 

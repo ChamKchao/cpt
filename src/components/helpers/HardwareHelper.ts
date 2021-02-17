@@ -11,4 +11,5 @@ export enum AntennaType {
   PATCH = "PATCH",
   DIPOLE = "DIPOLE",
   MESH = "MESH",
+  PHASED_ARRAY = "PHASED_ARRAY",
 }

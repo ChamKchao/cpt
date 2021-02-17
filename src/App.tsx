@@ -14,6 +14,7 @@ import HomePage from "./components/home/HomePage";
 import ResourcePanel from "./components/resource_panel/ResourcePanel";
 import MainPage from "./components/main_page/MainPage";
 import RfAntennaPage from "./components/rf_antenna/RfAntennaPage";
+import RfAntennaDetailPage from "./components/rf_antenna/RfAntennaDetailPage";
 import {
   AccordionItemModel,
   AccordionModel,
@@ -155,6 +156,9 @@ const App = () => {
         <Switch>
           <Route path="/MainPage/:group/:area" exact>
             <MainPage styleOptions={{ gridRow: 2, gridColumn: 3 }} />
+          </Route>
+          <Route path="/RfAntennaDetailPage/:id" exact>
+            <RfAntennaDetailPage styleOptions={{ gridRow: 2, gridColumn: 3 }} />
           </Route>
           <Route path="/" exact>
             <HomePage styleOptions={{ gridRow: 2, gridColumn: 3 }} />

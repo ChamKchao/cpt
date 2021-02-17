@@ -44,6 +44,28 @@
     "notes": " "
   },
   {
+    "id": "y4h65gBOsE2mznOdSTslIQ",
+    "oem": "CesiumAstro",
+    "name": "Vireo",
+    "description": "Vireo is a multi-beam active phased array system with a steerging range of +/- 60 degrees in azimuth and elevation.  Each beam has a beamwith of 8 degree.",
+    "type": "PHASED_ARRAY",
+    "apertureInCm": 0,
+    "gainIndB": 30,
+    "gainAtFrequencyInGHz": 29,
+    "primaryBand": "Ka",
+    "secondaryBand": "Ku, X, C, S",
+    "lowerFrequencyInGHz": 25,
+    "upperFrequencyInGHz": 29,
+    "stowedDimension": {
+      "widthInCm": 40,
+      "lengthInCm": 35,
+      "heightInCm": 18
+    },
+    "imageFileName": "cesiumastro_vireo.PNG",
+    "resourceLink": "https://www.cesiumastro.com/vireo",
+    "notes": " "
+  },
+  {
     "id": "d8cvGCuba0yjtrmpHejUcA",
     "oem": "Aero",
     "name": "Some Antenna",

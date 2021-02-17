@@ -1,6 +1,7 @@
 import { AntennaType, IDimension } from "../helpers/HardwareHelper";
 
 export interface IRfAntennaModel {
+  id: string;
   oem: string;
   name: string;
   type?: AntennaType;
