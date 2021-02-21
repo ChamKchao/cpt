@@ -6,6 +6,8 @@ import styles from "./MainPage.module.scss";
 
 import RfAntennaPage from "../rf_antenna/RfAntennaPage";
 
+import LinkBudgetPage from "../link_budget/LinkBudgetPage";
+
 type MainPageProps = {
   styleOptions: React.CSSProperties;
 };
@@ -20,6 +22,7 @@ const MainPage = ({ styleOptions }: MainPageProps) => {
   return (
     <div className={styles.Container} style={styleOptions}>
       {area === "RF Antenna" && <RfAntennaPage />}
+      {area === "Link Budget" && <LinkBudgetPage />}
     </div>
   );
 };

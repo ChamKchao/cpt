@@ -1,0 +1,105 @@
+@import "../../global";
+
+$image_width: 300px;
+
+.Container {
+  @extend .shadow;
+  display: grid;
+  grid-template-columns: calc(100% - #{$image_width} - 10px) #{$image_width};
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  width: calc(100% - 0px);
+  border-style: none;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 13px;
+  background-color: #f3f3f3;
+  padding: 10px 10px 10px 18px;
+}
+
+.NameAndOEM {
+  margin: 10px 0px;
+  font: {
+    family: Roboto, sans-serif;
+    size: #{$Large_font_size};
+    weight: 400px;
+  }
+}
+
+.RegularText {
+  font: {
+    family: Roboto, sans-serif;
+    size: #{$normal_font_size};
+    weight: 300px;
+  }
+}
+
+.Image {
+  grid-row: 1;
+  grid-column: 2;
+  width: #{$image_width};
+  margin: auto 10px 0px 0px;
+}
+
+.Info {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.Description {
+  margin: 10px 0px;
+  font: {
+    family: Roboto, sans-serif;
+    size: #{$normal_font_size};
+    weight: 400px;
+  }
+}
+
+table {
+  width: 100%;
+  font-family: Roboto, sans-serif;
+}
+
+.SpecColumn {
+  width: 250px;
+}
+
+.UnitColumn {
+  width: 80px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #{$grey_color8};
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  font: {
+    size: #{$small_font_size};
+    weight: 300;
+  }
+}
+
+.table tr:nth-child(even) {
+  background-color: #eee;
+}
+.table tr:nth-child(odd) {
+  background-color: #fff;
+}
+.table th {
+  background-color: #{$grey_color10};
+  color: red;
+}
+
+.ExcelButton {
+  // margin: 0px 0px 0px 0px;
+  padding: 2px 2px 0px 2px;
+  float: right;
+}

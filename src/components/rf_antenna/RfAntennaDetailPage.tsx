@@ -4,7 +4,8 @@ import { NavLink, useParams } from "react-router-dom";
 import styles from "../main_page/MainPage.module.scss";
 
 import { RfAntennaContext } from "../../DataContext";
-import RfAntennaCard from "./RfAntennaCard";
+// import RfAntennaCard from "./RfAntennaCard";
+import RfAntennaDataSheet from "./RfAntennaDataSheet";
 import RfAntennaThumb from "./RfAntennaThumb";
 import { IRfAntennaModel } from "./RfAntennaModel";
 import { AntennaType } from "../helpers/HardwareHelper";
@@ -26,7 +27,7 @@ const RfAntennaDetailPage = ({ styleOptions }: RfAntennaDetailPageProp) => {
 
   return (
     <div className={styles.Container} style={styleOptions}>
-      <RfAntennaCard antenna={antenna} />
+      <RfAntennaDataSheet antenna={antenna} />
     </div>
   );
 };
