@@ -170,6 +170,16 @@ const RfAntennaCard = ({ antenna }: RfAntennaCardProps) => {
               <td>{antenna.costInThousand}</td>
             </tr>
           )}
+          {antenna.programsOrStudies !== undefined && (
+            <tr>
+              <td>Programs/Studies</td>
+              <td></td>
+              <td>
+                {antenna.programsOrStudies} - would be clikable/linked to
+                studies/programs page
+              </td>
+            </tr>
+          )}
         </table>
       </div>
     </div>

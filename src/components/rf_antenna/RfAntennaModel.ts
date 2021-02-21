@@ -20,4 +20,5 @@ export interface IRfAntennaModel {
   imageFileName?: string;
   resourceLink?: string;
   notes?: string;
+  programsOrStudies?: string;
 }
