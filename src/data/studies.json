@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2d00dueVsEigwqGtt77Nsg",
+    "name": "Rooster",
+    "abstract": "With a new surface coating,   the <a href='https://chamkchao.github.io/cpt#/RfAntennaDetailPage/AzFNYn8dN06pHayJblf7Ig'>TenDeg antenna</a>",
+    "leadOrg": "CPT",
+    "sponsor": "SMC",
+    "body": [
+      "One of the amazing outcome for this studies is the discovery that the gain of  ",
+      "a parabolic antenna is \\[G = \\eta_{a} \\left(\\frac{\\pi D f}{c}\\right)^2\\]"
+    ]
+  },
+  {
+    "id": "gkxyo7JJrUGkO3RM5wASpw",
+    "name": "RainCube",
+    "abstract": "Some abstract ",
+    "leadOrg": "CPT",
+    "sponsor": "NASA/JPL",
+    "body": [
+      "One of the amazing outcome for this studies is the discovery ",
+      "that \\[\\sqrt{2} \\approx 1.414\\]"
+    ]
+  },
+  {
+    "id": "MTKHWISEpketpm9LqtbFQw",
+    "name": "Some Studies",
+    "abstract": "Some abstract",
+    "leadOrg": "CPT",
+    "sponsor": "Aerospace/ETG"
+  },
+  {
+    "id": "bgZp3sAN00CDFIZxuXcMRg",
+    "name": "SST Studies",
+    "abstract": "Some abstract",
+    "leadOrg": "SST",
+    "sponsor": "Aerospace/ETG"
+  }
+]

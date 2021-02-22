@@ -21,13 +21,28 @@
   },
   {
     "id": "4iXwmFjMykioxksFi2RBbA",
-    "group": "Studies",
+    "group": "Programs",
     "area": "MILSATCOM"
   },
   {
     "id": "wVFBDlG3c0W86Gfxplo98A",
-    "group": "Studies",
+    "group": "Programs",
     "area": "SBIR"
+  },
+  {
+    "id": "bLkiIxKKykGsaY1z9X0VMA",
+    "group": "Studies",
+    "area": "CPT"
+  },
+  {
+    "id": "uoNuWkSG3ESPD6M5DbuYOg",
+    "group": "Studies",
+    "area": "SST"
+  },
+  {
+    "id": "OAe7jbftrUeH2wJSmBUysw",
+    "group": "Studies",
+    "area": "SAT"
   },
   {
     "id": "UDNWj0YUNE22X2GSIHucPg",

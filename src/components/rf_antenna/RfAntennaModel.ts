@@ -1,5 +1,10 @@
 import { AntennaType, IDimension } from "../helpers/HardwareHelper";
 
+export interface studiesLink {
+  name: string;
+  navLinkId: string;
+}
+
 export interface IRfAntennaModel {
   id: string;
   oem: string;
@@ -20,5 +25,6 @@ export interface IRfAntennaModel {
   imageFileName?: string;
   resourceLink?: string;
   notes?: string;
-  programsOrStudies?: string;
+  studies?: studiesLink[];
+  programs?: string;
 }

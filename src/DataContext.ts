@@ -10,6 +10,9 @@ import { ICptResource } from "./components/resource_panel/CptResourceModel";
 import rfAntennaJson from "./data/rf_antennas.json";
 import { IRfAntennaModel } from "./components/rf_antenna/RfAntennaModel";
 
+import studiesJson from "./data/studies.json";
+import { IStudies } from "./components/studies/Studies";
+
 const cptResources: ICptResource[] = cloneDeep(
   cptResourcesJson as ICptResource[]
 );
@@ -20,4 +23,7 @@ const rfAntennas: IRfAntennaModel[] = cloneDeep(
 );
 const RfAntennaContext = React.createContext(rfAntennas);
 
-export { CptResourcesContext, RfAntennaContext };
+const studies: IStudies[] = cloneDeep(studiesJson as IStudies[]);
+const StudiesContext = React.createContext(studies);
+
+export { CptResourcesContext, RfAntennaContext, StudiesContext };

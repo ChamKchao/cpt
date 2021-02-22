@@ -20,7 +20,10 @@
     "imageFileName": "Tendeg_KaTENna.jpg",
     "notes": "Scalable up to 5m.  Multiple feed options.",
     "resourceLink": "https://www.tendeg.com/products",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "jgbbPiAXF0yUvGr3Wyvgfw",
@@ -43,7 +46,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "y4h65gBOsE2mznOdSTslIQ",
@@ -66,7 +72,10 @@
     "imageFileName": "cesiumastro_vireo.PNG",
     "resourceLink": "https://www.cesiumastro.com/vireo",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "d8cvGCuba0yjtrmpHejUcA",
@@ -89,7 +98,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "d8cvGCuba0yjtrmpHejUcA",
@@ -112,7 +124,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "d8cvGCuba0yjtrmpHejUcA",
@@ -135,7 +150,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "d8cvGCuba0yjtrmpHejUcA",
@@ -158,7 +176,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "d8cvGCuba0yjtrmpHejUcA",
@@ -181,7 +202,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "d8cvGCuba0yjtrmpHejUcA",
@@ -204,7 +228,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "fB73mqspbEKI2fGrOP559A",
@@ -222,7 +249,10 @@
     "imageFileName": "endurosat_XBand4by4PatchArray.PNG",
     "resourceLink": "https://www.endurosat.com/cubesat-store/cubesat-antennas/x-band-4x4-patch-array/",
     "notes": "",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "d8cvGCuba0yjtrmpHejUcA",
@@ -245,7 +275,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "d8cvGCuba0yjtrmpHejUcA",
@@ -268,7 +301,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "d8cvGCuba0yjtrmpHejUcA",
@@ -291,7 +327,10 @@
     "imageFileName": "Tendeg_KaPDA.PNG",
     "resourceLink": "https://www.tendeg.com/products",
     "notes": " ",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   },
   {
     "id": "sn47QLtMP0y6Dh8nnVVngg",
@@ -308,6 +347,9 @@
     "imageFileName": "endurosat_UHFIII.PNG",
     "resourceLink": "https://www.endurosat.com/cubesat-store/cubesat-antennas/uhf-antenna/",
     "notes": "",
-    "programsOrStudies": "Rooster, NASA RainCube"
+    "studies": [
+      { "name": "Rooster", "navLinkId": "2d00dueVsEigwqGtt77Nsg" },
+      { "name": "RainCube", "navLinkId": "gkxyo7JJrUGkO3RM5wASpw" }
+    ]
   }
 ]

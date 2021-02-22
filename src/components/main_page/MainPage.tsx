@@ -7,6 +7,7 @@ import styles from "./MainPage.module.scss";
 import RfAntennaPage from "../rf_antenna/RfAntennaPage";
 
 import LinkBudgetPage from "../link_budget/LinkBudgetPage";
+import StudiesPage from "../studies/StudiesPage";
 
 type MainPageProps = {
   styleOptions: React.CSSProperties;
@@ -23,6 +24,7 @@ const MainPage = ({ styleOptions }: MainPageProps) => {
     <div className={styles.Container} style={styleOptions}>
       {area === "RF Antenna" && <RfAntennaPage />}
       {area === "Link Budget" && <LinkBudgetPage />}
+      {group === "Studies" && <StudiesPage leadOrg={area as string} />}
     </div>
   );
 };

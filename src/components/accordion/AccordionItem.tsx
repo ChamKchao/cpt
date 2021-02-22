@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import styles from "./Accordion.module.scss";
 
 import { AccordionItemModel } from "./Accordion.model";
+import { ICptResource } from "../resource_panel/CptResourceModel";
 
 type AccordionItemState = {
   active: boolean;

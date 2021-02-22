@@ -1,8 +1,9 @@
 import React from "react";
+import { ICptResource } from "../resource_panel/CptResourceModel";
 
 export interface AccordionItemModel {
   group: string;
-  areas: string[];
+  areas: String[];
 }
 
 export interface AccordionModel {

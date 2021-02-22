@@ -21,7 +21,6 @@ type RfAntennaDetailPageProp = {
 const RfAntennaDetailPage = ({ styleOptions }: RfAntennaDetailPageProp) => {
   let { id } = useParams<RfAntennaDetailPageParams>();
   const rfAntennas: IRfAntennaModel[] = useContext(RfAntennaContext);
-  console.log(id);
 
   const antenna = rfAntennas.find((e) => e.id === id) as IRfAntennaModel;
 
